@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2024-04-20T12:33:23.515Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" version="24.2.2" etag="BGLy0vzoiGpdUmDOchPK" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-20T13:47:15.958Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="w8LE-EKc0HNFb7XEmOUK" version="24.2.2" type="github">
   <diagram name="Page-1" id="aP26IU29dhFxdvUveBc6">
-    <mxGraphModel>
+    <mxGraphModel dx="911" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GRDRgxc5QOVXQSU2BIOR-42" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Finance manager&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="320" width="480" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="GRDRgxc5QOVXQSU2BIOR-36" value="View and Manage portfolio" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="GRDRgxc5QOVXQSU2BIOR-42">
+          <mxGeometry x="260" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GRDRgxc5QOVXQSU2BIOR-13" value="Import transaction data from broker." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="GRDRgxc5QOVXQSU2BIOR-42">
+          <mxGeometry x="50" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GRDRgxc5QOVXQSU2BIOR-15" value="View and Manage Transactions" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="GRDRgxc5QOVXQSU2BIOR-42">
+          <mxGeometry x="170" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GRDRgxc5QOVXQSU2BIOR-20" value="View company statistics" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="GRDRgxc5QOVXQSU2BIOR-42">
+          <mxGeometry x="160" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GRDRgxc5QOVXQSU2BIOR-24" value="Compare company&amp;nbsp;&lt;div&gt;statistics&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="GRDRgxc5QOVXQSU2BIOR-42">
+          <mxGeometry x="170" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GRDRgxc5QOVXQSU2BIOR-5" value="User&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;allowArrows=1;portConstraintRotation=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="130" y="620" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GRDRgxc5QOVXQSU2BIOR-46" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GRDRgxc5QOVXQSU2BIOR-5" target="GRDRgxc5QOVXQSU2BIOR-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="630" as="sourcePoint" />
+            <mxPoint x="290" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GRDRgxc5QOVXQSU2BIOR-47" value="" style="endArrow=none;html=1;rounded=0;entryX=0.417;entryY=1.043;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GRDRgxc5QOVXQSU2BIOR-5" target="GRDRgxc5QOVXQSU2BIOR-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="660" as="sourcePoint" />
+            <mxPoint x="570" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GRDRgxc5QOVXQSU2BIOR-48" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GRDRgxc5QOVXQSU2BIOR-5" target="GRDRgxc5QOVXQSU2BIOR-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="660" as="sourcePoint" />
+            <mxPoint x="570" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GRDRgxc5QOVXQSU2BIOR-49" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.422;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GRDRgxc5QOVXQSU2BIOR-5" target="GRDRgxc5QOVXQSU2BIOR-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="660" as="sourcePoint" />
+            <mxPoint x="570" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GRDRgxc5QOVXQSU2BIOR-50" value="" style="endArrow=none;html=1;rounded=0;entryX=0.02;entryY=0.594;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GRDRgxc5QOVXQSU2BIOR-5" target="GRDRgxc5QOVXQSU2BIOR-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="660" as="sourcePoint" />
+            <mxPoint x="570" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
